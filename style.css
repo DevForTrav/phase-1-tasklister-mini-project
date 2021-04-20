@@ -7,11 +7,24 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: #f0b947;
 }
 
 button {
   font-size: 7px;
+}
+
+.delete-btn{
+  margin-left: 5px;
+  padding: 4px;
+  /* padding-bottom:; */
+  font-size: 10px;
+  background-color:#efa463;
+  border-radius: 12px;
+}
+
+.delete-btn:hover {
+  color: #fff;
 }
 
 #main-content {
@@ -21,7 +34,7 @@ button {
   align-items: center;
   flex-direction: column;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
+  background: #fff;
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
@@ -30,7 +43,7 @@ button {
 #list {
   margin: 10px;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  background: #efa463;
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
